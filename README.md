@@ -7,7 +7,6 @@ This repository _is not_ the original repository for this tool. Here are some li
 
 In this repository, for GraPacc you will find
 * :x: Source code (Not available)
-* :white_check_mark: Binary (Available)
-* :x: A slightly modified version of the tool [Aneesh Kher](https://github.com/aneeshkher) got working (Not available)
+* :white_check_mark: [Binary (Available)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-GraPacc/blob/master/GraPaccPlugin_Update.zip)  
 
 This repository was constructed by [Aneesh Kher](https://github.com/aneeshkher) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson).
