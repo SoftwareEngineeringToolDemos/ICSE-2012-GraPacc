@@ -9,7 +9,7 @@
 5. Observe the execution shell on your machine. Please wait until the execution is done.
 6. After the machine is up, you have three options to log into the machine
    * From the same directory, run `vagrant ssh` and wait for the VM terminal to show up. This does not require you to enter a username or password.
-   * Use an SSH client like [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) with the hostname `127.0.0.1`. Requires username and password.
+   * Use an SSH client like [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) with the hostname `127.0.0.1` on port `2222`. Requires username and password.
    * Use the GUI provided by the VM. Requires password.
 7. Verify java installation by running the following commands.
    * `which java`
