@@ -7,10 +7,12 @@
 3. Navigate into that directory and copy the [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-GraPacc/blob/master/build-vm/Vagrantfile) AND the [install.sh](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-GraPacc/blob/master/build-vm/install.sh) provisioning file into that directory.
 4. Run `vagrant up` inside that directory. This will create a fresh Ubuntu 14.04 LTS machine. Since this tool is a java based tool, the script will install java 7 on the virtual machine.
 5. Observe the execution shell on your machine. Please wait until the execution is done.
-6. Go to the virtual machine. You will see Eclipse already open.
+6. Once the machine is up, go to the virtual machine. You will see Eclipse already open.
 7. In the Eclipse window, go to 'File', and click 'Refresh'. This will refresh the workspace and text editor.
 
-Here is a [link to the repository](https://github.com/aneeshkher/SE_Project_Files) containing the support scripts and files used to create the VM.
+Here is a [link to the repository](https://github.com/aneeshkher/SE_Project_Files) containing the support scripts and files used to create the VM.  
+
+Here is a [link to the README](https://github.com/aneeshkher/SE_Project_Files/blob/master/README.txt) which shows how to use the tool.
 
 ### VM Credentials
 * Username: `vagrant`
