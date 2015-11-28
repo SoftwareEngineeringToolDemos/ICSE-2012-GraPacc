@@ -10,6 +10,8 @@
 6. Go to the virtual machine. You will see Eclipse already open.
 7. In the Eclipse window, go to 'File', and click 'Refresh'. This will refresh the workspace and text editor.
 
+Here is a [link to the repository](https://github.com/aneeshkher/SE_Project_Files) containing the support scripts and files used to create the VM.
+
 ### VM Credentials
 * Username: `vagrant`
 * Password: `vagrant`  
