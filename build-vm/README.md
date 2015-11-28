@@ -23,3 +23,4 @@
 * https://www.digitalocean.com/community/tutorials/how-to-install-java-on-ubuntu-with-apt-get
 * https://docs.vagrantup.com/v2/provisioning/shell.html
 * https://docs.vagrantup.com/v2/virtualbox/configuration.html
+* Vagrant VirtualBox image used: https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop
