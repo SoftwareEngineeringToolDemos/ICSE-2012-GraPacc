@@ -7,13 +7,8 @@
 3. Navigate into that directory and copy the [Vagrantfile](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-GraPacc/blob/master/build-vm/Vagrantfile) AND the [install.sh](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-GraPacc/blob/master/build-vm/install.sh) provisioning file into that directory.
 4. Run `vagrant up` inside that directory. This will create a fresh Ubuntu 14.04 LTS machine. Since this tool is a java based tool, the script will install java 7 on the virtual machine.
 5. Observe the execution shell on your machine. Please wait until the execution is done.
-6. After the machine is up, you have three options to log into the machine
-   * From the same directory, run `vagrant ssh` and wait for the VM terminal to show up. This does not require you to enter a username or password.
-   * Use an SSH client like [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) with the hostname `127.0.0.1` on port `2222`. Requires username and password.
-   * Use the GUI provided by the VM. Requires password.
-7. Verify java installation by running the following commands.
-   * `which java`
-   * `java -version`
+6. Go to the virtual machine. You will see Eclipse already open.
+7. In the Eclipse window, go to 'File', and click 'Refresh'. This will refresh the workspace and text editor.
 
 ### VM Credentials
 * Username: `vagrant`
@@ -24,3 +19,7 @@
 * https://docs.vagrantup.com/v2/provisioning/shell.html
 * https://docs.vagrantup.com/v2/virtualbox/configuration.html
 * Vagrant VirtualBox image used: https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop
+* http://askubuntu.com/questions/450398/how-to-remove-amazon
+* http://askubuntu.com/questions/180403/how-to-uninstall-libreoffice
+* http://askubuntu.com/questions/17157/how-do-i-stop-the-screen-from-being-locked-on-suspend
+* https://help.ubuntu.com/community/AutoLogin
