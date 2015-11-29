@@ -1,6 +1,9 @@
 ## Instructions to set up Virtual Machine  
 
 
+### VirtualBox Image
+The Ubuntu 14.04 image was obtained from the following link: https://atlas.hashicorp.com/box-cutter/boxes/ubuntu1404-desktop
+
 ### Steps to create Virtual Machine  
 1. Install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html) on your system. Both softwares are compatible with Windows and Linux. After installing Vagrant, ensure that the `vagrant` program is part of your `PATH`.
 2. Create a new directory on your machine.
