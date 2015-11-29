@@ -13,11 +13,6 @@ apt-get install -y openjdk-7-jdk > /dev/null 2>&1
 echo "Installing git: Temporary installation..."
 apt-get install -y git > /dev/null 2>&1
 
-
-# sudo gsettings set org.gnome.desktop.lockdown disable-lock-screen true
-
-#wget --no-check-certificate --quiet -nv -O eclipse_3_6_2.tar.gz http://www.eclipse.org/downloads/download.php?file=/eclipse/downloads/drops/R-3.6.2-201102101200/eclipse-SDK-3.6.2-linux-gtk-x86_64.tar.gz
-
 # Download eclipse IDE from the eclipse website.
 echo "Downloading eclipse from website..."
 wget --no-check-certificate --quiet -nv -O eclipse_3_6_2.tar.gz http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/helios/SR2/eclipse-java-helios-SR2-linux-gtk-x86_64.tar.gz
