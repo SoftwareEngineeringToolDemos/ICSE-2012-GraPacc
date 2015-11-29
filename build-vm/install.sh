@@ -92,19 +92,19 @@ sudo chown -R vagrant:vagrant workspace
 # ========== Delete unwanted software/fles ============
 # Uninstall some unwanted software
 echo "Removing unwanted software..."
-sudo apt-get remove -y --purge libreoffice* > /dev/null
-sudo apt-get purge -y unity-webapps-common > /dev/null
-sudo apt-get remove -y unity-webapps-common > /dev/null
-sudo apt-get remove -y git > /dev/null
+sudo apt-get remove -y --purge libreoffice* > /dev/null 2>&1
+sudo apt-get purge -y unity-webapps-common > /dev/null 2>&1
+sudo apt-get remove -y unity-webapps-common > /dev/null 2>&1
+sudo apt-get remove -y git > /dev/null 2>&1
 
 # Remove unwanted icons from the sidebar
 echo "Removing icons from sidebar..."
-sudo rm -f "/usr/share/applications/libreoffice-calc.desktop"
-sudo rm -f "/usr/share/applications/libreoffice-writer.desktop"
-sudo rm -f "/usr/share/applications/libreoffice-impress.desktop"
-sudo rm -f "/usr/share/applications/ubuntu-software-center.desktop"
-sudo rm -f "/usr/share/applications/ubuntuone-installer.desktop"
-sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"
+sudo rm -f "/usr/share/applications/libreoffice-calc.desktop" 2 > /dev/null
+sudo rm -f "/usr/share/applications/libreoffice-writer.desktop" 2 > /dev/null
+sudo rm -f "/usr/share/applications/libreoffice-impress.desktop" 2 > /dev/null
+sudo rm -f "/usr/share/applications/ubuntu-software-center.desktop" 2 > /dev/null
+sudo rm -f "/usr/share/applications/ubuntuone-installer.desktop" 2 > /dev/null
+sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop" 2 > /dev/null
 
 # Remove unnecessary files on the machine
 echo "Removing unnecessary files and folders..."
