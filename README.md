@@ -8,6 +8,6 @@ This repository _is not_ the original repository for this tool. Here are some li
 In this repository, for GraPacc you will find
 * :x: Source code (Not available)
 * :white_check_mark: [Binary (Available)](https://github.com/SoftwareEngineeringToolDemos/ICSE-2012-GraPacc/blob/master/GraPaccPlugin_Update.zip)  
-* :white_check_mark: [Virtual machine containing tool (Available)](https://drive.google.com/open?id=0B5SJ3QauNyUsNGdLRHpLaGZjMTA)
+* :x: Virtual machine containing tool (not available)
 
 This repository was constructed by [Aneesh Kher](https://github.com/aneeshkher) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Tien N. Nguyen, Anh Tuan Nguyen, Hoan Anh Nguyen, and Tung Thanh Nguyen for their help in establishing this repository.
